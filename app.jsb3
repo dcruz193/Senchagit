@@ -1,0 +1,41 @@
+{
+    "projectName": "Project Name",
+    "licenseText": "Copyright(c) 2012 Company Name",
+    "builds": [
+        {
+            "name": "All Classes",
+            "target": "all-classes.js",
+            "options": {
+                "debug": true
+            },
+            "files": [
+                {
+                    "clsName": "Daniel.grid.column.Column",
+                    "name": "Column.js",
+                    "path": "ExtJSDaniel/grid/column/"
+                },
+                {
+                    "clsName": "Daniel.grid.Panel",
+                    "name": "Panel.js",
+                    "path": "ExtJSDaniel/grid/"
+                }
+            ]
+        },
+        {
+            "name": "Application - Production",
+            "target": "app-all.js",
+            "compress": true,
+            "files": [
+                {
+                    "path": "",
+                    "name": "all-classes.js"
+                },
+                {
+                    "path": "",
+                    "name": "app.js"
+                }
+            ]
+        }
+    ],
+    "resources": []
+}
